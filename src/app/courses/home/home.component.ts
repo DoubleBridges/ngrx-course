@@ -10,6 +10,7 @@ import {CoursesHttpService} from '../services/courses-http.service';
 
 
 @Component({
+  // tslint:disable-next-line:component-selector
     selector: 'home',
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.css']
